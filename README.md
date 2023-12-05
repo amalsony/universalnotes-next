@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UniversalNotes Developer Guide
+
+UniversalNotes is an open-source browser extension that brings Community Notes from Twitter to every website. As a developer, you can contribute to the project. Here's how you can get started:
 
 ## Getting Started
 
-First, run the development server:
+To get started with UniversalNotes development, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Fork the UniversalNotes repository on GitHub.
+2. Clone the forked repository to your local machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Load the extension in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - For Chrome:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+     1. Open the Extension Management page by navigating to `chrome://extensions`.
+     2. Enable the "Developer mode" toggle.
+     3. Click on the "Load unpacked" button and select the `dist` folder in the cloned repository.
 
-## Learn More
+4. Make your desired changes to the codebase.
+5. Test your changes by reloading the extension in your browser and verifying the functionality.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you would like to contribute to UniversalNotes, please follow these guidelines:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Create a new branch for your changes:
 
-## Deploy on Vercel
+   ```bash
+   git checkout -b feature/my-feature
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Commit your changes with descriptive commit messages:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git commit -m "Add new feature"
+   ```
+
+3. Push your branch to your forked repository:
+
+   ```bash
+   git push origin feature/my-feature
+   ```
+
+4. Open a pull request on the main UniversalNotes repository and provide a detailed description of your changes.
+
+## Resources
+
+To learn more about UniversalNotes and its development, you can visit the following resources:
+
+- [UniversalNotes Website](https://www.universalnotes.org) - the official website of UniversalNotes.
+
+## Security
+
+If you believe you have found a security vulnerability in UniversalNotes, we encourage you to responsibly disclose this and not open a public issue. We will investigate all legitimate reports. Email amal@teegle.app to disclose any security vulnerabilities
+
+## Support
+
+If you need any support or have any questions, you can:
+
+- Join the UniversalNotes community on [Discord](https://discord.gg/aQwaMY39).
+- Open an issue on the UniversalNotes GitHub repository.
+
+Happy coding and contributing to UniversalNotes!
